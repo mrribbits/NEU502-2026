@@ -5,6 +5,10 @@ from mne.bem import make_scalp_surfaces
 from qtpy.QtWidgets import QApplication
 import sys
 
+# Use this script to run coreg yourself manually.  This is useful when the coreg pipeline in 
+# mne-opm doesn't do a great job.  This will let you run coreg, save the transform, and then 
+# run the fwd model.
+
 
 # ── Configuration ────────────────────────────────────────────────────────────
 # SUBJECT is the bare BIDS subject ID (digits only, no "sub-" prefix).
